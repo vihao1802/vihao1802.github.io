@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#container {
+  width: 80%;
+  margin: 80px auto;
+  display: flex;
+  gap: 20px;
+}
+
+#left_side {
+  line-height: 35px;
+  width: 320px;
+}
+
+#left_side img {
+  display: block;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin: 0 auto 20px;
+}
+
+#left_side .name {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+#left_side .school i,
+.location i {
+  color: rgb(74, 69, 69);
+}
+
+#left_side .location {
+  border-bottom: 3px solid;
+  border-color: lightgray;
+  padding-right: 50px;
+}
+
+#left_side .link a {
+  text-decoration: none;
+  color: rgb(107, 101, 101);
+}
+
+#left_side .link a .fa-facebook {
+  color: rgb(39, 19, 216);
+}
+
+#left_side .link a .fa-github {
+  color: rgb(0, 0, 0);
+}
+
+#right_side {
+  flex-grow: 9;
+}
+
+.right_side-top {
+  border-radius: 10px;
+  border: 2px solid;
+  border-color: rgb(215, 209, 209);
+  padding: 5px 20px;
+}
+
+#right_side .title {
+  text-align: center;
+}
+
+#right_side .right_side-top__content {
+  margin-left: 20px;
+  /* display: flex; */
+}
+
+#right_side .right_side-top__content a {
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.right_side-bottom {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.right_side-bottom__items {
+  width: calc(50% - 40px);
+  height: 100px;
+  max-height: 130px;
+  border: 2px solid;
+  border-color: rgb(215, 209, 209);
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.right_side-bottom__items a {
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 600;
+  color: dodgerblue;
+  margin-left: 5px;
+}
+
+.right_side-bottom__items .summary {
+  color: rgb(74, 69, 69);
+}
+
+.right_side-bottom__items .language {
+  display: flex;
+  align-items: center;
+}
+
+.right_side-bottom__items .language__color {
+  width: 15px;
+  height: 15px;
+  background-color: blueviolet;
+  border-radius: 50%;
+  margin-right: 3px;
+}
