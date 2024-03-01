@@ -40,6 +40,25 @@ body {
   padding-right: 50px;
 }
 
+.link-container {
+  display: flex;
+  justify-content: center;
+}
+
+.link-container .link {
+  border-right: 2px solid gray;
+}
+
+.link-container .link a {
+  color: blue;
+  text-decoration: none;
+  padding: 0 15px;
+}
+
+.link-container .link:last-child {
+  border: none;
+}
+
 #left_side .link a {
   text-decoration: none;
   color: rgb(107, 101, 101);
@@ -61,7 +80,7 @@ body {
   border-radius: 10px;
   border: 2px solid;
   border-color: rgb(215, 209, 209);
-  padding: 5px 20px;
+  padding: 5px 20px 26px;
 }
 
 #right_side .title {
@@ -76,6 +95,11 @@ body {
 #right_side .right_side-top__content a {
   text-decoration: none;
   margin-right: 10px;
+}
+
+.right_side-top__content img {
+  width: 100%;
+  margin-left: -10px;
 }
 
 .right_side-bottom {
